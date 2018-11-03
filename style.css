@@ -1,3 +1,13 @@
 form {
     padding: 20px;
+    font-family: Helvetica;
+}
+
+#searchParameters {
+    font-size: 20px;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+#topArticles {
+    font-size: 20px;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }

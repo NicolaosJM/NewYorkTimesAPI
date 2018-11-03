@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,12 +24,13 @@
 
     <div class="container">
         <div class="jumbotron" style="background-color: rgb(19, 84, 100); margin:0px">
-            <h1 class="display-3 text-center rounded" style="color: lightgray">16s: New York Times Search</h1>
+            <h1 class="display-3 text-center rounded" style="color: lightgray"><i class="far fa-newspaper"></i>16s: New
+                York Times Search</h1>
         </div>
         <br>
         <div class="card">
-            <div class="card-header">
-                <h3>Search Parameters</h3>
+            <div class="card-header" id="searchParameters">
+                <i class="fas fa-newspaper"> Search Parameters</i>
             </div>
 
             <form>
@@ -40,9 +43,9 @@
                 <div class="form-group">
                     <label for="numOfRec">Number of Records to Retrieve:</label>
                     <select class="form-control" id="numOfRec">
-                            <option>1</option>
-                            <option>5</option>
-                            <option>10</option>
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
                     </select>
                 </div>
 
@@ -54,8 +57,8 @@
                     <label for="endYear">End Year (Optional):</label>
                     <input class="form-control" id="endYearSearch">
                 </div>
-                <i class ="fa fa-search">Search</i>
-                <i class="fa fa-trash">Clear Results</i>
+                <i class="fa fa-search" id="searchButton"> Search</i>
+                <i class="fa fa-trash" id="clearResultsButton"> Clear Results</i>
 
             </form>
 
@@ -63,7 +66,7 @@
         <br>
         <div class="card">
             <div class="card-header">
-                <h3>Top Articles</h3>
+                <i class="fas fa-th" id="topArticles"> Top Articles</i>
             </div>
             <div class="card-body">
 
